@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Flappy Bird</h1>
+        <button onclick="startGame()">Start Game</button>
+        <div>
+            <h2>Mejores Puntajes</h2>
+            <ol id="highscores">
+                <!-- Puntajes se añadirán aquí -->
+            </ol>
+        </div>
+    </div>
+    <canvas id="gameCanvas" style="display: none;"></canvas>
+    <audio id="bgMusic1" loop>
+        <source src="background-music1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="bgMusic2" loop>
+        <source src="background-music2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="bgMusic3" loop>
+        <source src="background-music3.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>

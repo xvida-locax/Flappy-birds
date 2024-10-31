@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #4ec0ca, #d1f2eb);
+    flex-direction: column;
+}
+
+#gameCanvas {
+    border: 2px solid #000;
+}
+
+#menu {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+}
